@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+}
+
+.heading {
+  font-family: Bree Serif;
+  font-size: 36px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 50%;
+  border: 1px solid #7b8794;
+}
+
+.inputElement {
+  outline: none;
+  border: none;
+  height: 30px;
+  width: 100%;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.image {
+  height: 20px;
+  width: 20px;
+}
+
+.tabContainer {
+  display: flex;
+  width: 40%;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.appsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  list-style-type: none;
+}

@@ -1,0 +1,16 @@
+/* Write your CSS here */
+
+.tabPara {
+  font-family: Bree Serif;
+  font-size: 24px;
+  margin-left: 10px;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+.active-tabItem {
+  text-decoration: underline;
+  color: #2563eb;
+}
